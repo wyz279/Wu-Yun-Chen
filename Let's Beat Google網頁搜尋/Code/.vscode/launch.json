@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.groupweb.vscode.Main",
+            "projectName": "bmi"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Main<foodsearch>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.groupweb.vscode.Main",
+            "projectName": "foodsearch",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
